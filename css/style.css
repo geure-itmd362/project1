@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #5d5e5e;
+  background-image: url("../images/winprizes-md.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom;
+  /*background-size: 100%;*/
+}
+
+input {
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+}
+
+div {
+  margin: 0 0 1rem 0;
+  float: left;
+  padding: 0 5.25rem;
+}
+
+header {  
+  font-size: 1.5em;
+  width: 100%;
+  height: 3em;
+  text-align: center;
+  color: #E7E7E7;;
+  background-color: black;
+}  
+
+h1 {
+  margin: 0;
+  padding-top: .5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+hr { 
+  width:50%; 
+  height:.0625rem; 
+  background: #fff;
+  margin-bottom: 1.5rem;
+  }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: .25rem;
+  text-align: center;
+}
+
+.formcenter {
+  margin: 0 auto;
+  /*width: 100%;*/
+  padding: .75rem;
+  overflow: hidden;
+  background: #E7E7E7;
+}
+
+#form {
+  padding: 0 1rem;
+}
+
+.buttoncenter {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#submitbutton {
+  height: 2rem;
+  width: 8.25rem;
+  text-align: center;
+  color: #fff;
+  background-color: black;
+  border: .1875rem solid #c00;
+  margin: .9rem auto;
+  margin-left: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+@media screen and (max-height: 700px) {
+    body {
+      /*background-size: 60%;*/
+    background-image: url("../images/winprizes-sm.png");
+    }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+      /*background-size: 100%;*/
+      background-image: url("../images/winprizes-lg.png");
+  }
+
+  div {
+    padding: 0 1rem;
+  }
+
+  #form{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .formcenter {
+    width: 70%;
+    max-width: 960px;
+  }
+}

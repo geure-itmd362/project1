@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Lab 2</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/style.css" />
+</head>
+  <body>
+    <header>
+      <h1>Lab 2 Form</h1>
+    </header>
+    <section class="formcenter">
+      <form id="form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+        <h2><strong>Please enter the following information</strong></h2><hr />
+        <div>
+          <label>Email Address</label>
+          <input type="email" name="email_field" placeholder="joesmith@domain.com" required>
+        </div>
+        <div>
+          <label>Phone Number</label>
+          <!-- type="tel" will bring up a number pad on an iPhone with no way to enter a dash, hence using type="text" -->
+          <input type="text" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+        </div>
+        <div>
+          <label>Date of Birth</label>
+          <!-- type="date" brings up a date picker which I didn't want so went with text field instead -->
+          <input type="text" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="MM/DD/YYYY" required>
+        </div>
+        <div>
+          <input id="submitbutton" type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+    <footer>
+      <p>This is a fake page. No actual prizes will be awarded.</p>
+    </footer>
+  </body>
+</html>
