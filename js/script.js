@@ -4,9 +4,9 @@
 
 $(document).ready(function() {
 
-  $('#signup').click(function() {
+  $('#submit').click(function() {
     $('#form').toggle();
-    $('#container1').toggle();
+    $('#container').toggle();
     $("#submit").css("display", "block");
     })
 

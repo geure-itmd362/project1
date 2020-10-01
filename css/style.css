@@ -58,14 +58,7 @@ p {
   display: none;
 }
 
-#container1 {
-  width: 100%;
-  margin: 0 auto;
-  position: absolute;
-  bottom: 0;
-}
-
-#container2 {
+#container {
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -82,23 +75,12 @@ p {
   margin-left: -1em; /* 16px */
 }
 
-#signup {
-  color: white;
-  background-color: #ff1a1a;
-  width: 85%;
-  margin: 1em auto 1.44em auto; /* 16px, 23.04px */
-  display: block;
-  border: 0;
-  outline: 0;
-  border-radius: 2.074em; /* 33.184px */
-}
-
 #submit {
   color: white;
   background-color: #ff1a1a;
   width: 85%;
   margin: 1em auto 1.44em auto; /* 16px, 23.04px */
-  display: hide;
+  display: block;
   border: 0;
   outline: 0;
   border-radius: 2.074em; /* 33.184px */
