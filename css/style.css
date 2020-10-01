@@ -43,12 +43,29 @@ label {
 h1 {
   /*margin: 2.074rem auto;*/
   font-size: 2.488em;  /* 33.178px */
+  line-height: 1.2em; /* 19.2px or 120% */
   padding: .482em 1em; /* 7.712px, 16px */
   text-align: center;
   font-weight: 600;
 }
 
-#container {
+p {
+  line-height: 1.2em; /* 19.2px or 120% */
+  text-align: center;
+}
+
+#form {
+  display: none;
+}
+
+#container1 {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+}
+
+#container2 {
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -65,12 +82,23 @@ h1 {
   margin-left: -1em; /* 16px */
 }
 
-#submit {
+#signup {
   color: white;
   background-color: #ff1a1a;
   width: 85%;
   margin: 1em auto 1.44em auto; /* 16px, 23.04px */
   display: block;
+  border: 0;
+  outline: 0;
+  border-radius: 2.074em; /* 33.184px */
+}
+
+#submit {
+  color: white;
+  background-color: #ff1a1a;
+  width: 85%;
+  margin: 1em auto 1.44em auto; /* 16px, 23.04px */
+  display: hide;
   border: 0;
   outline: 0;
   border-radius: 2.074em; /* 33.184px */

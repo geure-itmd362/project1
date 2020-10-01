@@ -1,4 +1,15 @@
+
+
+
+
 $(document).ready(function() {
+
+  $('#signup').click(function() {
+    $('#form').toggle();
+    $('#container1').toggle();
+    $("#submit").css("display", "block");
+    })
+
   $('#name').focus(function() {
     $(this).attr('placeholder', 'enter first and last name...')
   }).blur(function() {
