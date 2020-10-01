@@ -8,7 +8,9 @@ body {
   line-height: 1.2em; /* 19.2px or 120% */
   margin: 0;
   font-family: 'Libre Franklin',sans-serif;
+  color: #f2f2f2;
   background: #336699;
+  background-image: url("../images/ocean-sm.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom;
@@ -40,8 +42,10 @@ label {
 
 h1 {
   /*margin: 2.074rem auto;*/
-  font-size: 2.074em;  /* 33.178px */
+  font-size: 2.488em;  /* 33.178px */
   padding: .482em 1em; /* 7.712px, 16px */
+  text-align: center;
+  font-weight: 600;
 }
 
 #container {
@@ -73,16 +77,16 @@ h1 {
 }
 
 .Icon-outside {
-position:relative;
+  position:relative;
 }
 
 .Icon-outside i {
-position:absolute;
-/*margin-left:-6px;*/
-top:.25em; /* 4px */
-padding: .75em 1.4em; /* 12px, 22.4px */
-color: rgba(217, 217, 217, .5);
-background: transparent;
+  position:absolute;
+  /*margin-left:-6px;*/
+  top:.25em; /* 4px */
+  padding: .75em 1.4em; /* 12px, 22.4px */
+  color: rgba(217, 217, 217, .5);
+  background: transparent;
 }
 
 @media screen and (min-width: 510px) {
