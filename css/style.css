@@ -6,20 +6,20 @@ body {
   background-attachment: fixed;
   background-position: center bottom;
   font-size: 16px;
-  line-height: 1.2em;
+  line-height: 1.2rem;
   /*background-size: 100%;*/
 
 }
 
 input {
   box-sizing: border-box;
-  width: 60%;
+  width: 70%;
   /*padding: .75rem 1.25rem;*/
-  padding: .55em 0;
-  margin: .5rem 20% 1.5rem;
+  padding: .55rem 0;
+  margin: .482rem 10% 1.2rem 20%;
   border: 0;
   outline: 0;
-  border-bottom: 0.0625rem solid #e6e6e6;
+  border-bottom: 0.0625rem solid rgba(217, 217, 217, .5);
   color: #f2f2f2;
   /*border-radius: 0.375rem;*/
   background: transparent;
@@ -34,16 +34,9 @@ label {
 }
 
 h2 {
-  margin: 2rem 2% 0;
-  font-size: 2rem;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: .25rem;
-  text-align: center;
+  /*margin: 2.074rem auto;*/
+  font-size: 2.074rem;
+  padding: .482em 1em;
 }
 
 #container {
@@ -60,35 +53,32 @@ footer {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #f2f2f2;
   opacity: 1; /* Firefox */
-  margin-left: -1em;
+  margin-left: -1rem;
 }
 
 #submit {
   color: white;
   background-color: #ff0066;
-  width: 50%;
-  margin: 2em auto;
+  width: 85%;
+  margin: 1rem auto 2.074rem auto;
   display: block;
   border: 0;
   outline: 0;
-  border-radius: 2em;
+  border-radius: 2.074em;
 }
 
-.input-icons i { 
-  position: absolute; 
-} 
-  
-.input-icons { 
-  width: 200%; 
-  margin-bottom: 10px; 
-} 
-  
-.icon { 
-  padding: 10px; 
-  color: green; 
-  min-width: 150px; 
-  text-align: center; 
-} 
+.Icon-outside {
+position:relative;
+}
+
+.Icon-outside i {
+position:absolute;
+/*margin-left:-6px;*/
+top:.25em;
+padding: .85em 1.3em;
+color: rgba(217, 217, 217, .5);
+background: transparent;
+}
 
 @media screen and (min-width: 510px) {
   #container {

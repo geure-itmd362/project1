@@ -16,27 +16,35 @@
         <div id="container">
           <h2><strong>Register</strong></h2>
           <!--<label>Full Name</label>-->
-          <i class="fa fa-user icon"></i> 
-          <input type="text" id="name" name="full_name" class="fontsize" placeholder="Name" autocomplete="full-name" required>
+          <div class="Icon-outside">
+            <i class="fa fa-user fa-lg fa-fw"></i> 
+            <input type="text" id="name" name="full_name" class="fontsize" placeholder="Name" autocomplete="full-name" required>
+          </div>
           <!--
           <label>Last Name</label>
           <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name" required>-->
           <!--<label>Email Address</label>-->
-          <input type="email" id="email" name="email_field" placeholder="Email" class="fontsize" required>
+          <div class="Icon-outside">
+            <i class="fa fa-envelope fa-lg fa-fw"></i>
+            <input type="email" id="email" name="email_field" placeholder="Email" class="fontsize" required>
+          </div>
           <!--<label>Phone Number</label>-->
           <!-- type="tel" will bring up a number pad on an iPhone with no way to enter a dash, hence using type="text" -->
-          <input type="text" id="phone" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" class="fontsize" required>
+          <div class="Icon-outside">
+            <i class="fa fa-phone fa-lg fa-fw"></i>
+            <input type="text" id="phone" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" class="fontsize" required>
+          </div>
           <!--<label>Birthday</label>-->
           <!-- type="date" brings up a date picker which I didn't want so went with text field instead -->
-          <input type="number" id="birthday" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Birthday" class="fontsize" required>
+          <div class="Icon-outside">
+            <i class="fa fa-birthday-cake fa-lg fa-fw"></i>
+            <input type="number" id="birthday" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Birthday" class="fontsize" required>
+          </div>
           <div>
-            <input id="submit" type="submit" value="Submit" class="fontsize">
+            <input id="submit" type="submit" value="Sign-up!" class="fontsize">
           </div>
         </div>
       </form>
     </section>
-    <footer>
-      <p>This is a fake page. No actual prizes will be awarded.</p>
-    </footer>
   </body>
 </html>
