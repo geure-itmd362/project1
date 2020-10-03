@@ -146,7 +146,7 @@ hr {
 
 @media screen and (min-width: 510px) {
   body {
-    background-image: url("../images/ocean-md2.png");
+    background-image: url("../images/ocean-md.png");
     width: 100%;
     margin: 0 auto;
   }
