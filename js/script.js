@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('#signup').click(function() {
     $('#form').toggle();
-    $('#container').toggle();
+    $('#container1').toggle();
     $("#submit").css("display", "block");
     })
 
