@@ -4,7 +4,7 @@
 
 $(document).ready(function() {
 
-  $('#submit').click(function() {
+  $('#signup').click(function() {
     $('#form').toggle();
     $('#container').toggle();
     $("#submit").css("display", "block");

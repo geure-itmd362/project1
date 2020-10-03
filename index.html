@@ -12,51 +12,54 @@
   <script src="js/script.js"></script>
 </head>
   <body>
-    <section>
-      <div id="container">
-        <h1>Free image of the day</h1>
-        <p class="fontsize">Click below to receive free daily images!</p>
-        <div>
-          <input id="submit" type="submit" value="Sign-up!" class="fontsize">
-        </div>
-      </div>
-    </section>
-    <section>
-      <form id="form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+    <div id="wrapper">
+      <section>
         <div id="container">
-          <h1>Sign-up!</h1>
-          <!--<label>Full Name</label>-->
-          <div class="Icon-outside">
-            <i class="fa fa-user fa-lg fa-fw"></i> 
-            <input type="text" id="name" name="full_name" class="fontsize" placeholder="Name" autocomplete="full-name" required>
-          </div>
-          <!--
-          <label>Last Name</label>
-          <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name" required>-->
-          <!--<label>Email Address</label>-->
-          <div class="Icon-outside">
-            <i class="fa fa-envelope fa-lg fa-fw"></i>
-            <input type="email" id="email" name="email_field" placeholder="Email" class="fontsize" required>
-          </div>
-          <!--<label>Phone Number</label>-->
-          <!-- type="tel" will bring up a number pad on an iPhone with no way to enter a dash, hence using type="text" -->
-          <!--
-          <div class="Icon-outside">
-            <i class="fa fa-phone fa-lg fa-fw"></i>
-            <input type="text" id="phone" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" class="fontsize" required>
-          </div>
-          -->
-          <!--<label>Birthday</label>-->
-          <!-- type="date" brings up a date picker which I didn't want so went with text field instead -->
-          <div class="Icon-outside">
-            <i class="fa fa-birthday-cake fa-lg fa-fw"></i>
-            <input type="number" id="birthday" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Birthday" class="fontsize" required>
-          </div>
+          <h1>Free image of the day</h1>
+          <p class="fontsize smscreen">Click below to receive free daily images!</p>
+          <p class="fontsize lgscreen">Sign-up below to receive free daily images!</p>
           <div>
-            <input id="submit" type="submit" value="Get it!" class="fontsize">
+            <input id="signup" type="submit" value="Sign-up!" class="fontsize">
           </div>
         </div>
-      </form>
-    </section>
+      </section>
+      <section>
+        <form id="form" action="#" method="post" autocomplete="on" enctype="multipart/form-data">
+          <div id="container">
+            <hr /><h1>Sign-up!</h1>
+            <!--<label>Full Name</label>-->
+            <div class="Icon-outside">
+              <i class="fa fa-user fa-lg fa-fw"></i> 
+              <input type="text" id="name" name="full_name" class="fontsize" placeholder="Name" autocomplete="full-name" required>
+            </div>
+            <!--
+            <label>Last Name</label>
+            <input type="text" name="last_name" id="name" class="fontsize" placeholder="Last" autocomplete="family-name" required>-->
+            <!--<label>Email Address</label>-->
+            <div class="Icon-outside">
+              <i class="fa fa-envelope fa-lg fa-fw"></i>
+              <input type="email" id="email" name="email_field" placeholder="Email" class="fontsize" required>
+            </div>
+            <!--<label>Phone Number</label>-->
+            <!-- type="tel" will bring up a number pad on an iPhone with no way to enter a dash, hence using type="text" -->
+            <!--
+            <div class="Icon-outside">
+              <i class="fa fa-phone fa-lg fa-fw"></i>
+              <input type="text" id="phone" name="phone_field" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" class="fontsize" required>
+            </div>
+            -->
+            <!--<label>Birthday</label>-->
+            <!-- type="date" brings up a date picker which I didn't want so went with text field instead -->
+            <div class="Icon-outside">
+              <i class="fa fa-birthday-cake fa-lg fa-fw"></i>
+              <input type="number" id="birthday" name="date_field" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="Birthday" class="fontsize" required>
+            </div>
+            <div>
+              <input id="submit" type="submit" value="Get it!" class="fontsize">
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
   </body>
 </html>
