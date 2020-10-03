@@ -3,6 +3,14 @@ Minor Third Modular Scale:
 https://www.modularscale.com/?16&px&1.2
 */
 
+/* Disable autofill highlighting */
+input:-webkit-autofill  {
+  -webkit-text-fill-color: #f2f2f2 !important;
+  -webkit-box-shadow: 0 0 0 1 !important;
+  background-clip: content-box !important;
+  transition: background-color 1s 5000s;
+}
+
 html {
   max-width: 960px;
   width: 100%;
