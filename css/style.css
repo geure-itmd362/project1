@@ -71,14 +71,14 @@ hr {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  bottom: 0;
+  bottom: 2em;
 }
 
 #container2 {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  bottom: 0;
+  bottom: 2em;
 }
 
 .fontsize {
@@ -98,7 +98,7 @@ hr {
 #signup {
   color: white;
   background-color: #ff1a1a;
-  width: 85%;
+  width: 80%;
   margin: 1em auto 1.44em auto;
   display: block;
   border: 0;
@@ -109,7 +109,7 @@ hr {
 #submit {
   color: white;
   background-color: #ff1a1a;
-  width: 85%;
+  width: 80%;
   margin: 1em auto 1.44em auto;
   display: block;
   border: 0;
@@ -181,6 +181,7 @@ hr {
     margin: 3% auto 0 auto;
     width: 100%;
     position: relative;
+    bottom: 0;
   }
 
   #container2 {
@@ -188,6 +189,7 @@ hr {
     margin: 3% auto 0 auto;
     width: 100%;
     position: relative;
+    bottom: 0;
   }
 
   .fontsize {
