@@ -121,8 +121,8 @@ hr {
   position:relative;
 }
 
-.Icon-outside i {
-  position:absolute;
+.Icon-outside em {
+  position: absolute;
   top:.7em;
   margin-left: 1.4em;
   padding: .3em;
@@ -208,7 +208,7 @@ hr {
     display: block;
   }
 
-  .Icon-outside i {
+  .Icon-outside em {
     margin-left: 2.5em;
     top: .3em;
     padding: .3em;
