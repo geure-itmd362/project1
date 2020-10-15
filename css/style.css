@@ -23,7 +23,7 @@ body {
   font-family: 'Libre Franklin',sans-serif;
   color: #f2f2f2;
   background: #336699;
-  background-image: url("../images/ocean-sm.png");
+  background: linear-gradient(rgb(0, 0, 0, .1), rgb(0, 0, 0, .1)), url("../images/ocean-sm.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center bottom;
@@ -146,7 +146,11 @@ hr {
 
 @media screen and (min-width: 510px) {
   body {
-    background-image: url("../images/ocean-md.png");
+    background: #336699;
+    background: linear-gradient(rgb(0, 0, 0, .2), rgb(0, 0, 0, .1)), url("../images/ocean-md.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
     width: 100%;
     margin: 0 auto;
   }
@@ -232,6 +236,7 @@ hr {
 @media screen and (min-width: 768px) {
   body {
     background-image: none;
+    background: #336699;
     max-width: 960px;
   }
 
@@ -250,9 +255,8 @@ hr {
     margin: 0;
     border-radius: 2.074em;
     padding: 1em;
-    background-image: url("../images/ocean-lg.png");
+    background: linear-gradient(rgb(0, 0, 0, .4), rgb(0, 0, 0, .1)), url("../images/ocean-lg.png");
     background-position: right;
-    background-repeat: no-repeat;
     position: absolute;
     top: 50%;
     left: 50%;
