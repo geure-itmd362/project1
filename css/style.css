@@ -119,6 +119,8 @@ hr {
 
 .Icon-outside {
   position:relative;
+  padding: 0;
+  margin: 0;
 }
 
 .Icon-outside em {
