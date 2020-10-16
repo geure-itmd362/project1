@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "POST",
-      url: "#null", 
+      url: "index.html", 
       data: my_inputs,
       success: function(data, status){
         console.log(data);
