@@ -123,7 +123,7 @@ hr {
   margin: 0;
 }
 
-.Icon-outside em {
+.Icon-outside span {
   position: absolute;
   top:.7em;
   margin-left: 1.4em;
@@ -202,7 +202,7 @@ hr {
     display: block;
   }
 
-  .Icon-outside em {
+  .Icon-outside span {
     margin-left: 2.5em;
     top: .3em;
     padding: .3em;
