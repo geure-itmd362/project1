@@ -130,19 +130,6 @@ hr {
   background: transparent;
 }
 
-/* not working */
-#done {
-  display: none;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-}
-
-#finish {
-  display: none;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-}
-
 @media screen and (min-width: 510px) {
   body {
     background: #336699;
