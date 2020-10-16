@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "POST",
-      url: "index.html", 
+      url: "https://ptsv2.com/t/3tp3r-1602814424", 
       data: my_inputs,
       success: function(data, status){
         console.log(data);
